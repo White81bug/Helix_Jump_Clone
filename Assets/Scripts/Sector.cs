@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Sector : MonoBehaviour
@@ -9,6 +7,7 @@ public class Sector : MonoBehaviour
     public Material GoodMatetial;
     public Material BadMaterial;
     public Material BreakableMaterial;
+    public GameObject BreakParticles;
 
     private void Awake()
     {
@@ -39,8 +38,8 @@ public class Sector : MonoBehaviour
         }
         else
         {
-           
-            
+
+            Instantiate(BreakParticles, transform.gameObject.transform.position, Quaternion.identity);
             gameObject.SetActive(false);
             player.GetPoint();
             player.BreakSound.Play();

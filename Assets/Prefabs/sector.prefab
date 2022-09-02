@@ -97,3 +97,4 @@ MonoBehaviour:
   GoodMatetial: {fileID: 2100000, guid: b40544b2b0235e54db12d844c1901921, type: 2}
   BadMaterial: {fileID: 2100000, guid: 8f60f8a2e169e894cba78de9e0166de0, type: 2}
   BreakableMaterial: {fileID: 2100000, guid: 1e90f7fb23215684aad046e6fcce0108, type: 2}
+  BreakParticles: {fileID: 5999110954460973845, guid: 432f06ebb6e9ba1418ef766fd1b891bf, type: 3}

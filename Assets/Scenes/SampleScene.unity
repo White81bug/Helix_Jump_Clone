@@ -1259,6 +1259,7 @@ MonoBehaviour:
   BounceSound: {fileID: 2110483365}
   BreakSound: {fileID: 1742248705}
   CurrentPlatform: {fileID: 0}
+  DeathParticles: {fileID: 7250005428061700132, guid: 7dea55a7b7495704a9f9b402ead59bc8, type: 3}
 --- !u!1 &854708122
 GameObject:
   m_ObjectHideFlags: 0
