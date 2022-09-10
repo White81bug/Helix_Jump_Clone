@@ -634,7 +634,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 20d7f23eb07e5f74c9eb7e450ef946f8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -765,7 +765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ec7bb6f8d425904e8640867cd71862c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Volume: 0.2
+  Volume: 0.15
 --- !u!1 &635185874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1259,7 +1259,6 @@ MonoBehaviour:
   BounceSound: {fileID: 2110483365}
   BreakSound: {fileID: 1742248705}
   CurrentPlatform: {fileID: 0}
-  DeathParticles: {fileID: 7250005428061700132, guid: 7dea55a7b7495704a9f9b402ead59bc8, type: 3}
 --- !u!1 &854708122
 GameObject:
   m_ObjectHideFlags: 0
@@ -2935,7 +2934,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1fccf0484fc483b479ce558fe6e3b229, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
